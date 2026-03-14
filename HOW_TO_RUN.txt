@@ -1,0 +1,33 @@
+===============================================
+  SKILL 11 - React API Integration
+  KL University FSAD Lab
+===============================================
+
+PREREQUISITES:
+  - Node.js 16+, npm 8+
+  - Internet connection (for JSONPlaceholder & DummyJSON APIs)
+
+STEPS TO RUN:
+  1. Open terminal in skill11-react-api folder
+
+  2. Install dependencies:
+       npm install
+
+  3. Start the app:
+       npm start
+
+  4. Browser opens at: http://localhost:3000
+
+FEATURES:
+  Home       → Overview/navigation
+  Local Users → Loads from public/users.json using fetch()
+  Users API   → Calls https://jsonplaceholder.typicode.com/users using fetch()
+  Fake Posts  → Calls https://dummyjson.com/posts using axios
+               Dropdown filter by userId
+               Refresh button to reload
+
+KEY CONCEPTS:
+  - useState + useEffect for async data loading
+  - fetch() vs axios
+  - Loading state and error handling
+  - Dropdown filter with state
